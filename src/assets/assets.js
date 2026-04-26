@@ -23,6 +23,7 @@ import main2 from './main2.png'
 import main3 from './main3.png'
 import main4 from './main4.png'
 import main5 from './main5.png'
+import main6 from './main6.png'
 import ppart1 from './ppart1.png'
 import ppart2 from './ppart2.png'
 import part1 from './part1.png'
@@ -32,6 +33,7 @@ import part4 from './part4.png'
 import part5 from './part5.png'
 import part6 from './part6.png'
 import group1 from './group1.png'
+import group2 from './group2.png'
 import instru1 from './instru1.png'
 import instru2 from './instru2.png'
 import EngrMike from './EngrMike.png'
@@ -62,105 +64,123 @@ export const assets = {
 
 export const projectsData = [
     {
-        image: part6, 
-        title: "",
-        price: ".....",
+        image: group2, 
+        title: "pics with chandle",
+        name: "pics with chandle",
         location: "......",
     },
     {
-        image: ppart2, 
-        title: "more than  we deserve performance",
-        price: ".....",
+        image: main6, 
+        title: "pics with chandle",
+        name: "Pics with chandle",
         location: "......",
     },
     {
         image: group1, 
-        title: "Group pic of Excos with Ometeke and Stanclef",
-        price: ".....",
+        title: "Group pic of Excos with Chandel and Stanclef",
+        name: "Excos with Chandel and Stanclef",
+        location: "......",
+    },
+    {
+        image: part6, 
+        title: "",
+        name: "One of Our Sunday Holy Mass",
+        location: "......",
+    },
+    {
+        image: main5,
+        title: "Family of Kingsley Ogbuji child dedication",
+        name: "Child Dedication",
+        location: ".....",
+    },
+    {
+        image: ppart2, 
+        title: "more than  we deserve performance",
+        name: "More Than We Deserve 2025 season",
+        location: "......",
+    },
+    {
+        image: parish1, 
+        title: "more than  we deserve performance",
+        name: "More Than We Deserve 2025 season",
         location: "......",
     },
     {
         image: main4, 
         title: "Group performance",
-        price: ".....",
+        name: "Choir performance",
         location: "......",
     },
     {
         image: ppart1, 
         title: "more than  we deserve performance",
-        price: ".....",
+        name: "More Than We Deserve 2025",
         location: "......",
     },
     {
         image: main2,
         title: "more than  we deserve performance full",
-        price: "11111",
+        name: "More Than We Deserve 2025",
         location: ".....",
     },
     {
         image: main3,
         title: "more than  we deserve performance full",
-        price: "11111",
+        name: "More Than We Deserve 2025 ",
         location: ".....",
     },
     {
         image: main1,
         title: "more than  we deserve performance full",
-        price: "11111",
-        location: ".....",
-    },
-    {
-        image: main5,
-        title: "Family of Kingsley Ogbuji child dedication",
-        price: "11111",
+        name: "More Than We Deserve 2025",
         location: ".....",
     },
     {
         image: part1,
         title: "more than  we deserve performance half",
-        price: "22222",
+        name: "More Than We Deserve 2025",
         location: ".....",
     },
     {
         image: part2,
         title: "more than  we deserve performance half",
-        price: "33333",
+        name: "More Than We Deserve 2025",
         location: ".....",
     },
     {
         image: part3,
         title: "more than  we deserve performance half",
-        price: "44444",
+        name: "More Than We Deserve 2025",
         location: ".....",
     },
     {
         image: part4,
         title: "more than  we deserve performance half",
-        price: "5555",
+        name: "More Than We Deserve 2025",
         location: ".....",
     },
     {
         image: part5,
         title: "more than  we deserve performance half",
-        price: "66666",
+        name: "More Than We Deserve 2025",
         location: ".....",
     },
     {
         image: instru1,
         title: "more than  we deserve performance bass and lead guitar",
-        price: "66666",
+        name: "More Than We Deserve 2025",
         location: ".....",
     },
     {
         image: instru2,
         title: "more than  we deserve performance horns",
-        price: "66666",
+        name: "More Than We Deserve 2025",
         location: ".....",
     },
     {
         image: MTWD_stage,
         title: "more than  we deserve performance stage",
-        price: "66666",
+        name: "More Than We Deserve 2025",
         location: ".....",
     },
 ]
@@ -168,19 +188,44 @@ export const projectsData = [
 
 export const leadersData = [
     {
-        image: EngrMike, 
-        title: "......",
-        description: "......",
+        image: parish1, 
+        title: "Parish Priest",
+        name: "Rev.Fr. Francis Onuoha",
     },
     {
         image: EngrMike, 
-        title: "......",
-        description: "......",
+        title: "Choir Director",
+        name: "......",
     },
     {
         image: EngrMike, 
-        title: "......",
-        description: "......",
+        title: "Choir Co-ordinator",
+        name: "......",
+    },
+    {
+        image: EngrMike, 
+        title: "Choir Master",
+        name: "......",
+    },
+    {
+        image: EngrMike, 
+        title: "Alto Leader",
+        name: "......",
+    },
+    {
+        image: EngrMike, 
+        title: "Soprano Leader",
+        name: "......",
+    },
+    {
+        image: EngrMike, 
+        title: "Tenor Leader",
+        name: "......",
+    },
+    {
+        image: EngrMike, 
+        title: "Bass Leader",
+        name: "......",
     },
    
 ]
@@ -188,12 +233,12 @@ export const leadersData = [
 export const patronsData = [
     {
         image: parish1, 
-        name: "......",
+        name: "Mrs.",
         title: "......",
     },
     {
         image: parish1, 
-        name: "......",
+        name: "Mr.",
         title: "......",
     },
     {
@@ -225,7 +270,7 @@ export const patronsData = [
     {
         _id: "aaaaa",
         name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         image: [p_img1], */
         /* category: "Women",
         subCategory: "Topwear",
@@ -239,7 +284,7 @@ export const Soprano = [
     {
         _id: "aaaaa",
         name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         image: [p_img1],
         
     },
@@ -251,7 +296,7 @@ export const Tenor = [
     {
         _id: "aaaaa",
         name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         image: [p_img1],
     },
 ]
@@ -260,7 +305,7 @@ export const Bass = [
     {
         _id: "aaaaa",
         name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         image: [p_img1],
         
     },
@@ -271,7 +316,7 @@ export const Technical   = [
     {
         _id: "aaaaa",
         name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         image: [p_img1],
         
     },
@@ -282,7 +327,7 @@ export const Instrumentalist = [
     {
         _id: "aaaaa",
         name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         image: [p_img1],
         
     },
@@ -293,7 +338,7 @@ export const Patrons = [
     {
         _id: "aaaaa",
         name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         image: [p_img1],
         
     },

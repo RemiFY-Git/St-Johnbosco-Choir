@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Title from './Title'
  import { assets } from '../assets/assets'
 /* import toast from 'react-hot-toast' */
-import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaYoutube, FaTiktok } from 'react-icons/fa'
 import { motion } from "motion/react"
 
 const ContactUs = () => {
@@ -58,24 +58,31 @@ const ContactUs = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> 
+    
 
             {/* SOCIALS */}
             <div id='connect' className="pt-8 text-foreground ">
-              <h4 className="text-2xl font-semibold mb-4 text-center">Connect with Us</h4>
+              <h4 className="text-2xl font-semibold mb-4 text-center">Connect with Us on</h4>
               <div className="flex space-x-4 justify-center">
+                
                 <a href="https://www.facebook.com/profile.php?id=61573804493703" target="_blank" className="rt hover:text-primary transition-colors">
                   {/* <Linkedin /> */}
                   <FaFacebook />
                 </a>
+
                 <a href="#" target="_blank" className="hover:text-primary transition-colors">
-                  {/* <Twitter /> */}
                   <FaInstagram />
                 </a>
-                <a href="https://youtube.com@stjohnboscochoiraba?si=20cURwlMyUoHa" target="_blank" className="hover:text-primary transition-colors">
-                  {/* <Twitter /> */}
+
+                <a href="https://www.youtube.com/@stjohnboscochoiraba" target="_blank" className="hover:text-primary transition-colors">
                   <FaYoutube />
                 </a>
+
+                <a href="#" target="_blank" className="hover:text-primary transition-colors">
+                  <FaTiktok />
+                </a>
+                
                 {/* <a href="#" target="_blank" className="hover:text-primary transition-colors">
                   <Instagram />
                   <img src={assets.instagram_icon} className="hover:text-primary transition-colors" alt="" />

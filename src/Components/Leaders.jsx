@@ -60,7 +60,7 @@ const Leaders = () => {
             key={index} className='rounded-xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-900 hover:scale-102 duration-500 transition-all cursor-pointer'>
                 <img src={team.image} className='w-full rounded-xl' alt="" />
                 <div className='flex-1'>
-                    <h3 className='font-bold text-sm'>{team.description}</h3>
+                    <h3 className='font-bold text-sm'>{team.name}</h3>
                     <p className='text-xs opacity-60'>{team.title}</p>
                 </div>
             </motion.div>

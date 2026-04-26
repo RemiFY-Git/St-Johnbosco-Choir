@@ -298,19 +298,20 @@ const Gallery = () => {
           {projectsData.map((project, index) => (
             <div
               key={index}
-              className='relative flex-shrink-0'
+              className='relative flex-shrink-0 flex '/* flex-col */
               style={{ width: `${100 / cardsToShow}%` }}
             >
-              <img
+              <div className='w-full h-64 sm:h-72 lg-h-80 overflow-hidden rounded-lg mb-4'><img
                 src={project.image}
                 alt={project.title}
-                className='w-full h-auto mb-14 pointer-events-none'
+                className='w-full h-auto object-cover pointer-events-none' /* h-auto mb-14 */
               />
+              </div>
 
               <div className='absolute left-0 right-0 bottom-5 flex justify-center'>
                 <div className='inline-block bg-white dark:bg-gray-800 w-3/4 px-4 py-2 shadow-md'>
                   <p className='text-gray-500 text-sm'>
-                    {project.price} {project.location}
+                    {project.name} {/* {project.location} */}
                   </p>
                 </div>
               </div>

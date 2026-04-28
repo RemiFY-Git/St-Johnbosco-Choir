@@ -194,38 +194,48 @@ export const leadersData = [
     },
     {
         image: EngrMike, 
-        title: "Choir Director",
-        name: "......",
+        title: "Ag. General Co-ordinaror",
+        name: "Nerus Mbionwu",
     },
     {
         image: EngrMike, 
-        title: "Choir Co-ordinator",
-        name: "......",
+        title: "General Secretary",
+        name: "Evangel Iwunze",
     },
     {
         image: EngrMike, 
         title: "Choir Master",
-        name: "......",
+        name: "Chijioke Erondu",
     },
     {
         image: EngrMike, 
-        title: "Alto Leader",
-        name: "......",
+        title: "Organist",
+        name: "Blessing Nnamani",
+    },
+    {
+        image: EngrMike, 
+        title: "Theater Manager",
+        name: "Emmanuel Chineke",
     },
     {
         image: EngrMike, 
         title: "Soprano Leader",
-        name: "......",
+        name: "Esther Obasi",
+    },
+    {
+        image: EngrMike, 
+        title: "Alto Leader",
+        name: "Emmanuellla Nwokeocha",
     },
     {
         image: EngrMike, 
         title: "Tenor Leader",
-        name: "......",
+        name: "Chigbundu Christian",
     },
     {
         image: EngrMike, 
         title: "Bass Leader",
-        name: "......",
+        name: "Chinedu Okafor",
     },
    
 ]

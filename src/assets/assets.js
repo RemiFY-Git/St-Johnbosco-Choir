@@ -69,13 +69,13 @@ export const projectsData = [
     {
         image: part8, 
         title: "Asogwa Wedding",
-        name: "Wdding Outing",
+        name: "Wedding Outing",
         location: "......",
     },
     {
         image: part9, 
         title: "Asogwa Wedding",
-        name: "Wdding Outing",
+        name: "Wedding Outing",
         location: "......",
     },
     {

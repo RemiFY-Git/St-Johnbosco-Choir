@@ -17,9 +17,9 @@ const AboutUs = () => {
         <img className='w-full sm:w-1/2 md:max-w-lg' src={assets.ppart2} alt="" />
         <div className='flex flex-col justify-center gap-6 md:w-2/4 text-gray-600'>
         <p>St Johnbosco Choir Omalicha is an active choir for Sunday 8am Mass at SS.Anthony and Jude Parish Umungasi Aba, Abia state Nigeria.</p>
-        <p>Since our commission to service, we've worked tirelesslty to grow and deliver wonderfull songs, upgrade to high-quality equipments and standard logistics that cater to level up to prasie and worship to God almighty, we offer an extensive external duties once called upon.</p>
-        <b className='text-gray-800'>Our Missions</b>
-        <p>Our mission is .</p>
+        <p>Since our commission to service, we've worked tirelesslty to grow and deliver wonderfull songs, upgrade to high-quality equipments and standard logistics that cater to level up to praise and worship to God almighty, we offer an extensive external duties once called upon.</p>
+        {/* <b className='text-gray-800'>Our Missions</b>
+        <p>Our mission is .</p> */}
         </div>
       </div>
     </motion.div>

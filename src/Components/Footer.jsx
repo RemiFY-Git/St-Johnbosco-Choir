@@ -20,12 +20,12 @@ const Footer = ({theme}) => {
           viewport={{ once: true }}
         className='space-y-5 text-sm text-gray-700 dark:text-gray-400'>
             <img src={theme === 'dark' ? assets.logo_dark : assets.logo} className='w-32 sm:w-44' alt="" />
-            <p className='max-w-md'>From strategy to execution, we craft digital solutions that move your business forward.</p>
+            <p className='max-w-md'>Sing Praises  To the Lord!!!.</p>
 
             <ul className='flex gap-8'>
                 <li><a className='hover:text-primary' href="#hero">Home</a></li>
-                <li><a className='hover:text-primary' href="#services">Services</a></li>
-                <li><a className='hover:text-primary' href="#our-work">Our Work</a></li>
+                <li><a className='hover:text-primary' href="#about-us">About Us</a></li>
+                <li><a className='hover:text-primary' href="#gallery">Gallery</a></li>
                 <li><a className='hover:text-primary' href="#contact-us">Contact Us</a></li>
             </ul>
         </motion.div>
@@ -39,7 +39,7 @@ const Footer = ({theme}) => {
         transition={{ duration: 0.5, delay: 0.4 }}
         viewport={{ once: true }}
       className='pb-6 text-sm text-gray-500 flex justify-center sm:justify-between gap-4 flex-wrap'>
-        <p>&copy; {new Date().getFullYear()} Developer By Raymond All rights reserved. </p>
+        <p>&copy; {new Date().getFullYear()} St.Johnbosco Choir. Ss.Anthony & Jude Parish Umungasi Aba, Abia State, Nigeria All rights reserved. </p>
         <div className='flex items-center justify-between gap-4'>
             <img src={assets.facebook_icon} alt="" />
             <img src={assets.twitter_icon} alt="" />

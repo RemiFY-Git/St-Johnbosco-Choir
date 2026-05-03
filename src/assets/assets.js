@@ -18,6 +18,7 @@ import hero_img from './hero_img.png'
 import bgImage1 from './bgImage1.png'
 import bgImage2 from './bgImage2.png'
 
+import parish_priest from './Fr.Francis.png'
 import main1 from './main1.png'
 import main2 from './main2.png'
 import main3 from './main3.png'
@@ -32,6 +33,8 @@ import part3 from './part3.png'
 import part4 from './part4.png'
 import part5 from './part5.png'
 import part6 from './part6.png'
+import part8 from './part8.png'
+import part9 from './part9.png'
 import group1 from './group1.png'
 import group2 from './group2.png'
 import instru1 from './instru1.png'
@@ -63,6 +66,18 @@ export const assets = {
 }
 
 export const projectsData = [
+    {
+        image: part8, 
+        title: "Asogwa Wedding",
+        name: "Wdding Outing",
+        location: "......",
+    },
+    {
+        image: part9, 
+        title: "Asogwa Wedding",
+        name: "Wdding Outing",
+        location: "......",
+    },
     {
         image: group2, 
         title: "pics with chandle",
@@ -188,7 +203,7 @@ export const projectsData = [
 
 export const leadersData = [
     {
-        image: parish1, 
+        image: parish_priest, 
         title: "Parish Priest",
         name: "Rev.Fr. Francis Onuoha",
     },

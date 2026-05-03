@@ -269,7 +269,7 @@ const Gallery = () => {
     >
       <Title
         title='Our Gallery'
-        desc='From strategy to execution, we deliver the performance that uplift you toward God.'
+        desc='From strategy to execution, check out our beautiful photos.'
       />
 
       {/* Buttons */}

@@ -15,11 +15,11 @@ const ContactUs = () => {
       viewport={{ once: true }}  
       transition={{ staggerChildren: 0.2 }}
       id='contact-us' className='flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white'>
-      <Title title='Reach out to us' desc='From strategy to execution, we craft digital solutions that move your business forward.'/>
+      <Title title='Reach out to us' desc='Just a click away, you can reachout and connect with us.'/>
     
     
       <div className="space-y-8">
-            <h3 className="text-3xl font-semibold mb-4">Contact</h3>
+            <h3 className="text-3xl font-semibold">Contact</h3>  {/* mb-4 */}
             
             </div>
             {/* EMAIL */}
@@ -63,15 +63,15 @@ const ContactUs = () => {
 
             {/* SOCIALS */}
             <div id='connect' className="pt-8 text-foreground ">
-              <h4 className="text-2xl font-semibold mb-4 text-center">Connect with Us on</h4>
-              <div className="flex space-x-4 justify-center">
+              <h4 className="text-2xl font-semibold mb-4 text-center">Connect, Follow, Like Us on</h4>
+              <div className="flex space-x-4 justify-center mb-4 text-4xl">
                 
                 <a href="https://www.facebook.com/profile.php?id=61573804493703" target="_blank" className="rt hover:text-primary transition-colors">
                   {/* <Linkedin /> */}
                   <FaFacebook />
                 </a>
 
-                <a href="#" target="_blank" className="hover:text-primary transition-colors">
+                <a href="https://www.instagram.com/st.johnbosco_choir_aba?igsh=MTB0MWFlMGIycGFxcQ==" target="_blank" className="hover:text-primary transition-colors">
                   <FaInstagram />
                 </a>
 
@@ -79,7 +79,7 @@ const ContactUs = () => {
                   <FaYoutube />
                 </a>
 
-                <a href="#" target="_blank" className="hover:text-primary transition-colors">
+                <a href="https://www.tiktok.com/@st.johnbosco.choir?_r=1&_t=ZS-95l7rlBYAE5" target="_blank" className="hover:text-primary transition-colors">
                   <FaTiktok />
                 </a>
                 
@@ -96,6 +96,7 @@ const ContactUs = () => {
                   <img src={assets.twitter_icon} alt="" />
                 </a> */}
               </div>
+              Ss.Anthony & Jude Parish Umungasi Aba, Abia State, Nigeria
             </div>
           
 

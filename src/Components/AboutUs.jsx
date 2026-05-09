@@ -13,6 +13,24 @@ const AboutUs = () => {
      id='about-us' className='flex flex-col items-center mx-auto gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white'>
         <Title title='About Us' desc='Sing Praises To The Lord !!!'/> 
 
+{/* Green Dots */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {[...Array(30)].map((_, i) => (
+          <div
+            className="absolute w-1.5 h-1.5 rounded-full opacity-60"
+            style={{
+              backgroundColor: "#20B2A6",
+              left: `${Math.random() * 100}%`,
+              top: `${Math.random() * 100}%`,
+              animation: `slow-drift ${
+                15 + Math.random() * 20
+              }s ease-in-out infinite`,
+              animationDelay: `${Math.random() * 5}s`,
+            }}
+          />
+        ))}
+      </div>
+
         <div className='flex flex-col md:flex-row gap-16'>
         <img className='w-full sm:w-1/2 md:max-w-lg' src={assets.ppart2} alt="" />
         <div className='flex flex-col justify-center gap-6 md:w-2/4 text-gray-600'>

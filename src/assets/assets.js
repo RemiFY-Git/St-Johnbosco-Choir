@@ -37,6 +37,7 @@ import part8 from './part8.png'
 import part9 from './part9.png'
 import group1 from './group1.png'
 import group2 from './group2.png'
+import group3 from './group3.png'
 import instru1 from './instru1.png'
 import instru2 from './instru2.png'
 import EngrMike from './EngrMike.png'
@@ -67,8 +68,14 @@ export const assets = {
 
 export const projectsData = [
     {
+        image: group3, 
+        title: "Glady's Wedding",
+        name: "Wedding Outing",
+        location: "......",
+    },
+    {
         image: part8, 
-        title: "Asogwa Wedding",
+        title: "Asogwa's Wedding",
         name: "Wedding Outing",
         location: "......",
     },
@@ -81,13 +88,13 @@ export const projectsData = [
     {
         image: group2, 
         title: "pics with chandle",
-        name: "pics with chandle",
+        name: "pics with Chandle",
         location: "......",
     },
     {
         image: main6, 
         title: "pics with chandle",
-        name: "Pics with chandle",
+        name: "Pics with Chandle",
         location: "......",
     },
     {

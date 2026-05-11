@@ -38,9 +38,11 @@ import part9 from './part9.png'
 import group1 from './group1.png'
 import group2 from './group2.png'
 import group3 from './group3.png'
+import group4 from './group4.png'
 import instru1 from './instru1.png'
 import instru2 from './instru2.png'
 import EngrMike from './EngrMike.png'
+import StNerus from './stnerus.png'
 import parish1 from './parish1.png'
 import MTWD_stage from './MTWD_stage.png'
 
@@ -70,6 +72,12 @@ export const projectsData = [
     {
         image: group3, 
         title: "Glady's Wedding",
+        name: "Wedding Outing",
+        location: "......",
+    },
+    {
+        image: group4, 
+        title: "Asogwa's Wedding",
         name: "Wedding Outing",
         location: "......",
     },
@@ -215,7 +223,7 @@ export const leadersData = [
         name: "Rev.Fr. Francis Onuoha",
     },
     {
-        image: EngrMike, 
+        image: StNerus, 
         title: "Ag. General Co-ordinaror",
         name: "Nerus Mbionwu",
     },

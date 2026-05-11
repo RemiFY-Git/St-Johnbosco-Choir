@@ -58,7 +58,6 @@ useEffect(()=>{
       <Gallery />
       <Leaders />
       <Patron />
-      {/* <Services /> */}
       <ContactUs />
       <Footer theme={theme}/>
 

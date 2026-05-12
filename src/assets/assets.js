@@ -19,6 +19,17 @@ import bgImage1 from './bgImage1.png'
 import bgImage2 from './bgImage2.png'
 
 import parish_priest from './Fr.Francis.png'
+import EngrMike from './EngrMike.png'
+import StNerus from './stnerus.png'
+import OgaEdu from './OgaEdu.png'
+import EmmaChineke from './EmmaChineke.png'
+import Blessing from './blessing.png'
+import Evangel from './evangel.png'
+import Esther from './esther.png'
+import Ella from './Ella.png'
+
+import Colombians from './Colombians.png'
+
 import main1 from './main1.png'
 import main2 from './main2.png'
 import main3 from './main3.png'
@@ -41,8 +52,6 @@ import group3 from './group3.png'
 import group4 from './group4.png'
 import instru1 from './instru1.png'
 import instru2 from './instru2.png'
-import EngrMike from './EngrMike.png'
-import StNerus from './stnerus.png'
 import parish1 from './parish1.png'
 import MTWD_stage from './MTWD_stage.png'
 
@@ -85,6 +94,12 @@ export const projectsData = [
         image: part8, 
         title: "Asogwa's Wedding",
         name: "Wedding Outing",
+        location: "......",
+    },
+    {
+        image: Colombians, 
+        title: "Asogwa's Wedding",
+        name: "Colombians",
         location: "......",
     },
     {
@@ -228,42 +243,42 @@ export const leadersData = [
         name: "Nerus Mbionwu",
     },
     {
-        image: EngrMike, 
+        image: Evangel, 
         title: "General Secretary",
         name: "Evangel Iwunze",
     },
     {
-        image: EngrMike, 
+        image: bgImage1, 
         title: "Choir Master",
         name: "Chijioke Erondu",
     },
     {
-        image: EngrMike, 
+        image: Blessing, 
         title: "Organist",
         name: "Blessing Nnamani",
     },
     {
-        image: EngrMike, 
+        image: EmmaChineke, 
         title: "Theater Manager",
         name: "Emmanuel Chineke",
     },
     {
-        image: EngrMike, 
+        image: Esther, 
         title: "Soprano Leader",
         name: "Esther Obasi",
     },
     {
-        image: EngrMike, 
+        image: Ella, 
         title: "Alto Leader",
         name: "Emmanuellla Nwokeocha",
     },
     {
-        image: EngrMike, 
+        image: bgImage2, 
         title: "Tenor Leader",
         name: "Chigbundu Christian",
     },
     {
-        image: EngrMike, 
+        image: OgaEdu, 
         title: "Bass Leader",
         name: "Chinedu Okafor",
     },

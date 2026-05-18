@@ -35,7 +35,7 @@ const ContactUs = () => {
                     href="mailto:raymondatuwaogu@gmail.com"
                     className="hover:text-primary transition-colors"
                   >
-                    raymondatuwaogu@gmail.com
+                    xxx-xxxx-xxx-xxx@gmail.com
                   </a>
                 </div>
               </div>
@@ -54,7 +54,7 @@ const ContactUs = () => {
                     href="tel:+2348106679983"
                     className="hover:text-primary transition-colors"
                   >
-                    +234-810-667-9983
+                    +234-XXX-XXX-XXXX
                   </a>
                 </div>
               </div>
@@ -62,7 +62,7 @@ const ContactUs = () => {
     
 
             {/* SOCIALS */}
-            <div id='connect' className="pt-8 text-foreground ">
+            <div id='connect' className="pt-25 text-foreground ">
               <h4 className="text-2xl font-semibold mb-4 text-center">Connect, Follow, Like Us on</h4>
               <div className="flex space-x-4 justify-center mb-4 text-4xl">
                 

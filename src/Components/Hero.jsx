@@ -14,7 +14,7 @@ const Hero = () => {
       className='inline-flex items-center gap-2 border border-gray-300 p-1.5 pr-4 '> {/* rounded-full */}
         {/* <img src={assets.heroimg} alt="" /> */}
         {/* <img src={assets.bgImae1} alt="" className='absolute -top-40 -right-40 sm:-top-100 sm:-right-70 -z-1 dark:hidden'/> */}
-        <p className='text-blue-600 text-xs font-medium'>SING PRASIES !!! TO THE LORD !!!</p>
+        <p className='text-blue-400 text-xs font-medium'>SING PRASIES !!! TO THE LORD !!!</p>
       </motion.div>
 
       <motion.h1 
